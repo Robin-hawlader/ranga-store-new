@@ -62,9 +62,16 @@ body {
 .font-awesome{
   color:rgb(199, 155, 11) ;
 }
-.buy-now{
+.btn-property{
   background-color: #264653;
+  padding: 8px;
+  border-radius: 3px;
   color: white;
+  border: none;
+  transition: all .2s ease-in-out;
+}
+.btn-property:hover{
+  transform: scale(1.1);
 }
 @media only screen and (max-width: 768px) {
   #all-products {
