@@ -52,6 +52,7 @@ const getInputValue = (id) => {
 // main price update function
 const updatePrice = (id, value) => {
   const convertedOldPrice = getInputValue(id)
+
   const convertedPrice = value;
   const total = convertedOldPrice + convertedPrice;
   document.getElementById(id).innerText = total.toFixed(2);
